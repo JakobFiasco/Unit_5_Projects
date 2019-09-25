@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 1
+   
+   Layout styles for Slate and Pencil Tutoring
+   Author: 
+   Date:   
+   
+   Filename: sp_layout.css
+
+*/
+
+/* Window and Body Styles */
+html{
+    height: 100%;
+    min-height: 100%;
+    
+}
+body{
+    width: 95%;
+    max-height: 960px;
+    min-height: 640%;
+    margin-right: auto;
+    margin-left: auto;
+}
+header> ul> li> a{
+    display: block;
+}
+
+/* Row Styles */
+a.row{
+    clear: both;
+}
+
+
+
+
+/* Page Header Styles */
+body >header >img{
+    display: block;
+    width: 70%;
+    
+}
+body> header> nav{
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+}
+header> nav> a{
+    display: block
+}
+
+
+
+/* Horizontal Navigation List Styles */
+nav.horizontal{
+    display: block;
+    width: 12.5%;
+    float: left;
+}
+
+
+
+/* Topics Styles */
+ul#topic{
+    float: left;
+    display: block;
+    margin-left: 0%;
+    margin-right: 1.5%;
+}
+#topics:first-of-type{
+    margin-right: 7.75%;
+}
+/* HR Styles */
+hr{
+    width: 50%;
+}
+
+
+
+/* Customer Comment Styles */
+
+
+
+/* Footer Styles */
+footer{
+   clear: both;
+}
+
