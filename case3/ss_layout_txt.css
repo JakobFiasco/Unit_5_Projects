@@ -15,7 +15,11 @@
 
 
 /* Article Styles */
-
+article{
+   float: left;
+   margin: 384px;
+   width: 384px;
+}
 
 
 
@@ -31,7 +35,10 @@
 
 
 /* Map Styles */
-
+#battleMap{
+   width: 768px;
+   float: left;
+}
 
 
 
