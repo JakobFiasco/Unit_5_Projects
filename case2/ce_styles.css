@@ -26,6 +26,7 @@ body{
     width: 95%;
     min-width: 320px;
     max-width: 960px;
+    position: relative;
 }
 
 /* Body Header Styles */
@@ -33,7 +34,17 @@ header{
     background-color: rgb(191, 68, 70);
     height: 40px;
 }
-nav > ul{
+img{
+    display: block;
+    width: 100%;
+}
+a:link, a:visited{
+    text-decoration: none; 
+    font-size: 0.9em;
+    color: rgb(51, 51, 51);
+}
+nav > ul > li{
+    display: block;
     float: left;
     margin-right: 20px;
     padding-top: 10px;
@@ -41,20 +52,25 @@ nav > ul{
     padding-left: 0px;
     padding-right: 0px;
 }
-img{
+/* DIV Container Styles */
+div#container{
+   padding-right:  8px;
+   padding-bottom: 8px;
+}
+div.cell{
     display: block;
     width: 100%;
+    padding-left: 8px;
+    padding-top: 8px;
 }
-a:link{
-    text-decoration: none; 
-    font-size: 0.9em;
-    color: rgb(51, 51, 51);
-}
-/* DIV Container Styles */
-
-
 
 /* Footer Styles */
 footer{
     position: absolute;
+    right: 8px;
+    bottom: 8px;
+    color: rgb(143, 33, 36);
+    font-size: 2vmin;
+    text-align: right;
+
 }
